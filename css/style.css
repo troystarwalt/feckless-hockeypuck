@@ -19,16 +19,14 @@ html {
 #banner {
 	text-align: center;
 	width:900px;
-	background-color:#eeeeee;
-	position: fixed;
+	background-color:transparent;
 }
 
 .tagline {
-	background-color: #eeeeee;
-	overflow: none;
+	background-color: transparent;
 }
 
-.overlayban {
+.overlayban::hover {
 
 }
 
@@ -36,12 +34,12 @@ html {
 	margin:0 auto;
 	width:900px;
 	font-family:Helvetica, Arial, sans-serif;
-	background-color: white;
+	background-color: transparent;
 }
 
 nav {
 	text-align: center;
-	background-color: #eeeeee;
+	background-color: transparent;
 	width:100%;
 }
 
@@ -49,5 +47,59 @@ nav {
 	display: inline-block;
 	list-style-type: none;
 	padding:10px;
-	border:1px grey solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+#nav a:hover {
+    text-decoration: bold;
+    background-image: url(../images/flag.png);
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+.floatedright {
+	float:right;
+	margin: 3px;
+}
+
+article {
+	background-color: #eeeeee;
+	padding: 5px;
+}
+
+.cari {
+	display: inline-block;
+}
+
+.cari img {
+	margin:10px;
+}
+
+.clear {
+	clear:both;
+}
+
+footer {
+	color: white;
+	bottom: 10px;
 }
