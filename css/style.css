@@ -1,0 +1,53 @@
+body {
+	margin:0;
+}
+
+html {
+/*	background-image: url("../images/corn.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;*/
+
+    background: url(../images/corn.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#banner {
+	text-align: center;
+	width:900px;
+	background-color:#eeeeee;
+	position: fixed;
+}
+
+.tagline {
+	background-color: #eeeeee;
+	overflow: none;
+}
+
+.overlayban {
+
+}
+
+#wrapper {
+	margin:0 auto;
+	width:900px;
+	font-family:Helvetica, Arial, sans-serif;
+	background-color: white;
+}
+
+nav {
+	text-align: center;
+	background-color: #eeeeee;
+	width:100%;
+}
+
+#nav li {
+	display: inline-block;
+	list-style-type: none;
+	padding:10px;
+	border:1px grey solid;
+}
