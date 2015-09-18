@@ -118,6 +118,12 @@ article {
 	max-width: 150px;
 }
 
+#movingtrump {
+	position: fixed;
+	top:250px;
+	left:220px;
+}
+
 .imagefloatfix{
 	margin:40px;
 }
