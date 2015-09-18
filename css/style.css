@@ -80,6 +80,7 @@ a:active {
 .floatedright {
 	float:right;
 	margin: 3px;
+	width:230px;
 }
 
 .floatedleft {
@@ -106,17 +107,14 @@ article {
 }
 
 .cari {
-	display: inline-block;
-}
-
-.cari img {
-	margin:10px;
+	float:left;
 }
 
 #center {
 	float: left;
-	max-width: 150px;
+	max-width: 250px;
 }
+
 
 #movingtrump {
 	position: fixed;
@@ -126,6 +124,10 @@ article {
 
 .imagefloatfix{
 	margin:40px;
+}
+
+.vote {
+	font-size: 15px;
 }
 
 .clear {
